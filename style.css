@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 15px 30px;
+
+}
+
+.right,
+.left {
+    display: flex;
+}
+
+#head {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
